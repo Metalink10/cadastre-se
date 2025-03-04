@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastrar</title>
+  </head>
+  <body>
+    <div class="msgSucesso" id="msgSucesso">
+      <h3>Cadastrado com sucesso. Aguarde...</h3>
+    </div>
+
+    <form method="POST">
+      <h1>Cadastrar</h1>
+      <div class="container">
+        <div class="nome">
+          <input type="text" placeholder="Nome" id="nome" />
+          <p id="errorNome"></p>
+        </div>
+
+        <div class="email">
+          <input type="email" name="" placeholder="Email" id="email" />
+          <p id="errorEmail"></p>
+        </div>
+
+        <div class="senha">
+          <input
+            type="password"
+            name=""
+            placeholder="Crie uma senha"
+            id="senha"
+          />
+          <p id="errorSenha"></p>
+        </div>
+
+        <button type="button" onclick="cadastrarUsuarios()">cadastrar</button>
+      </div>
+    </form>
+    <script src="cadastrar.js"></script>
+  </body>
+</html>
