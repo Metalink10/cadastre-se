@@ -23,7 +23,7 @@ function cadastrarUsuarios() {
     msg.setAttribute("style", "display: block")
 
     setTimeout(() => {
-      window.location.href = 'https://tela-de-login-brown-five.vercel.app/';
+      window.location.href = 'https://tela-de-login-azure-five.vercel.app/';
     },2000)
   }else if(nome === "" && email ==="" && senha === "" ) {
     txtNome.innerHTML =  "Preencha o campo";
