@@ -1,3 +1,3 @@
 Tela-de-login-cadastro/cadastro
-Uma pagina de login que pede cadastro do usuário para acessar apenas uma página sem conteúdos, apenas um acesso para teste. Não tendo o acesso, clica no link de cadastro a baixo e é direcionada para a paágina de cadastro, onde tudo é manipulado e armazenado no localStorage só para simular o armazenamento de um banco de dados. Também bem interativo com os alertas do javascript para campos em brancos e para usuário não na tela de login cadastrado. Link para ver resultado e teste:https://cadastre-se.vercel.app/
+Uma pagina de cadastro de usuário onde tudo é manipulado e armazenado no localStorage só para simular o armazenamento de um banco de dados. Foi algo que eu criei para treinar o armazenamento no LocalStorage. Link para ver resultado e teste: https://cadastre-se.vercel.app/
 <img width="1360" height="600" alt="image" src="https://github.com/user-attachments/assets/78ca6bad-9679-4aa4-b575-8f9b728e315c" />
